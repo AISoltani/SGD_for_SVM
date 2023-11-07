@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import random
 from SGD_for_SVM import SGD_for_SVM
 
+
 x = np.array([[2,1],[1,2],[3,1],[3,2]])
 y = np.array([[1],[1],[-1],[-1]])
 eta = 0.001
