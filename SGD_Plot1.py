@@ -8,7 +8,6 @@ y = np.array([[1],[1],[-1],[-1]])
 eta = 0.001
 C = 10 
 
-
 w,b = SGD_for_SVM(x, y, eta, C)
 wp,bp = perceptron(x, y)
 XX1=  np.linspace(0,10,100)
