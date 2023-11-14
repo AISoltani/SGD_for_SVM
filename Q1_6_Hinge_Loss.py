@@ -8,6 +8,7 @@ y = np.array([[1],[1],[-1],[-1]])
 eta = 0.001
 c = [1,5,10]
 plt.figure()
+
 for C  in c:
     w,b = SGD_for_SVM_H (x, y, eta, C)
     XX1=  np.linspace(0,10,100)
