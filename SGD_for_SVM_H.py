@@ -9,7 +9,6 @@ def SGD_for_SVM_H (x,y,eta,C):
     w = np.zeros(d)
     b = 0
     max_pass = 50000
-
     
     for t in range(max_pass):
         for i in range(n):
