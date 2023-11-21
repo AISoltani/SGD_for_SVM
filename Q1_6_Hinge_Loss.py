@@ -28,4 +28,3 @@ plt.plot(x[1,0],x[1,1],'b+',markersize=10)
 plt.plot(x[2,0],x[2,1],'r*',markersize=10)
 plt.plot(x[3,0],x[3,1],'r*',markersize=10)
 plt.show()
-
