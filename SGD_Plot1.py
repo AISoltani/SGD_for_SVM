@@ -1,8 +1,11 @@
+# Import Libraries
+
 import numpy as np
 import matplotlib.pyplot as plt
 import random
 from SGD_for_SVM import SGD_for_SVM
-from perceptron import perceptron 
+from perceptron import perceptron
+
 x = np.array([[1,2],[2,1],[3,1],[3,2]])
 y = np.array([[1],[1],[-1],[-1]])
 eta = 0.001
