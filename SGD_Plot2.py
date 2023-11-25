@@ -24,6 +24,7 @@ for C  in c:
     plt.xlim(0,5)
     plt.ylim(0,5)
     plt.legend()
+    
 plt.plot(x[0,0],x[0,1],'b+',markersize=10)
 plt.plot(x[1,0],x[1,1],'b+',markersize=10)
 plt.plot(x[2,0],x[2,1],'r*',markersize=10)
