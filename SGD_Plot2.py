@@ -10,6 +10,7 @@ y = np.array([[1],[1],[-1],[-1]])
 eta = 0.001
 c = [0.01,0.1,1,10]
 plt.figure()
+
 for C  in c:
     
     w,b = SGD_for_SVM(x, y, eta, C)
