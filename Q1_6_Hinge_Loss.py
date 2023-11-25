@@ -17,6 +17,7 @@ for C  in c:
     XX2 = (-w[0] * XX1 - b)/w[1]
     ww = w/(w[0])
     bb =b/(w[0])
+    
     print ('C =',C,'w1 =',ww[0],'w2 =',ww[1], 'b =', bb[0])
     plt.plot(XX1,XX2,label = 'C ={}'.format(C),)
     plt.xlabel('x_1')
