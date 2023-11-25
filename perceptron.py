@@ -12,6 +12,7 @@ def perceptron (x,y):
     w = np.zeros(d)
     b = 0
     max_pass = 50000
+    
     for t in range(max_pass):
         for i in range(n):
             if y[i] * (np.dot(w.T,x[i,:].T) + b) <= 0:
