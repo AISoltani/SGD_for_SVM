@@ -7,6 +7,8 @@ import random
 C = 60
 eta = 0.001
 
+# Perceptron Function
+
 def perceptron (x,y):
     n,d = x.shape
     w = np.zeros(d)
