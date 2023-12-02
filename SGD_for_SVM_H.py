@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
+# SGD Func
+
 def SGD_for_SVM_H (x,y,eta,C):
     n,d = x.shape
     w = np.zeros(d)
